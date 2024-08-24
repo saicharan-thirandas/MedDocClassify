@@ -1,11 +1,10 @@
-Project Overview
 This project involves two types of tasks:
 
 Medical Specialty Classification
 Medical Document Type Classification
 Each task is designed to evaluate and compare the performance of traditional TF-IDF-based methods and domain-specific BERT-based models. Specifically, we compare:
 
-NER Models with TF-IDF Baseline: NER models extract medical-specific entities like anatomy and clinical terms, which are then used as features in TF-IDF vectorization, with logistic regression as the baseline classifier.
+NER Models with TF-IDF Baseline: Named Entity Recognition (NER) models extract medical-specific entities like anatomy and clinical terms, which are then used as features in TF-IDF vectorization, with logistic regression as the baseline classifier.
 
 Anatomy Entity Recognizer (En_ner_bionlp13cg_md): Trained on the BIONLP13CG corpus from the 2013 BioNLP Shared Task, this model identifies entities such as Anatomical_system, Cancer, and Organ, aiding in detailed anatomical and biological feature extraction.
 
