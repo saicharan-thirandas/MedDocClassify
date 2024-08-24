@@ -31,10 +31,4 @@ By doing so, we aim to determine which method provides the most accurate and rel
 
 This project demonstrates the relative strengths of traditional TF-IDF methods versus domain-specific BERT-based models in medical document classification. The comparison reveals how models like BioBERT and ClinicalBERT, with custom heads, excel in handling domain-specific language. Future work may explore additional models and further refine classifier architectures to improve classification accuracy.
 
-## Repository Link
 
-[GitHub Repository](https://github.com/lipet2k/FINAL_PROJECT_CS6120)
-
-## Suggested Repository Name
-
-**`Medical-NLP-Classification`**
